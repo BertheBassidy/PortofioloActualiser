@@ -20,28 +20,58 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 400px;
+    
 }
 
-.content-div:hover {
+/* .content-div:hover {
     background-image: linear-gradient(
         to right,
         rgba(112, 157, 255, 0.8),
         hsla(242, 74%, 61%, 0.8)   
-    )!important;
-}
-.nav li:hover{
-    border-bottom: 2px solid rgb(228, 34, 157);
-   
-}
-.presentation{
-    font-size: 25px;
-    margin-bottom: 40%;
-    font-weight:200;
+    )!important; 
+     duration:2s 
     
+} */
+.nav_Link li{
+    font-size: 30px;
 }
+.nav_Link li:hover{
+    border-bottom: 2px solid rgb(228, 34, 157); 
+}
+.myName{
+    
+    font-weight: bold;
+}
+.Presentation{
+    font-size: 30px;
+    /* margin-bottom: 40%;
+    font-weight:200; */
+    
+} 
+
 .profilPhoto{
-    width: 300px;
+    width: 600px;
   
 }
- 
+
+.name{
+    font-size: 10px;
+}
+.skill{
+    margin-top: 800px;
+ }
+.skills img{
+    height: 80px;
+}
+.footer{
+    position: sticky;
+    bottom: 2px;
+    margin-top: 150px;
+   
+}
+.footer p{
+    
+    font-size: 20px;
+    font-weight: 300;
+}

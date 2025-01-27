@@ -6,6 +6,9 @@ import  Counter  from "./Components/Counter";
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import Siklls from './Components/Siklls';
+import Project from './Components/Project';
+import Work from './Components/Work';
+import Footer from './Components/Footer';
 
 
 
@@ -17,8 +20,11 @@ function App() {
        <Home />
        <About />
        <Siklls />
+       <Work />
+       {/* <Project /> */}
        
        <Contact />
+       <Footer />
     </div>
   );
 }
